@@ -3,15 +3,15 @@ Remotify sample app
 
 This is a sample app for the Remotify plugin available for the Corona SDK
 
->  
-> IMPORTANT, MUST READ
+> ~~~~~~~~~~ IMPORTANT, MUST READ ~~~~~~~~~~
 >
 > The Remotify Plugin is Corona Simulator ONLY
 >
 > The Remotify Plugin NEEDS the Remotify app in order to work.
 >
 > The plugin ONLY works with the new graphics 2.0 engine
->  
+> 
+> ~~~ 
 
 The app will be available through both the Apple App Store and the Google Play Store.
 
