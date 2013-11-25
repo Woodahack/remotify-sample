@@ -19,12 +19,12 @@ If everything is working right, the Remotify plugin should show a blue bar which
 Remotify enables users to control the simulator from a remote device. Therefore any sample app that makes use of Runtime touch, GPS, accelerometer, hardware keys or compass events should provided a test case for the Remotify Plugin.
 
 All that needs to be done is:
-	* Have a working Remotify app and an internet connection
-	* Call the line 'require "plugin.remotify"' at the top of main.lua
-	* Make sure that the PC/MAC tested on is connected to the same local network as the device that runs the Remotify app
+* Have a working Remotify app and an internet connection
+* Call the line 'require "plugin.remotify"' at the top of main.lua
+* Make sure that the PC/MAC tested on is connected to the same local network as the device that runs the Remotify app
 
 
 To test if everything is working the following should happen when you run the sample app:
-	1. After a few seconds it displays your IP address
-	2. On succesful connect, the white dot should begin to move due to the input of your device
-	3. With the current project turn on multitouch on the Remotify app by tapping the 'four squares' icon. Now when you tap the black overlay on your device white pointers should show on the simulator screen. Provided of course that a connection has been set up and the top bar of the Remotify app is blue
+1. After a few seconds it displays your IP address
+2. On succesful connect, the white dot should begin to move due to the input of your device
+3. With the current project turn on multitouch on the Remotify app by tapping the 'four squares' icon. Now when you tap the black overlay on your device white pointers should show on the simulator screen. Provided of course that a connection has been set up and the top bar of the Remotify app is blue
