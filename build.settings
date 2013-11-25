@@ -1,0 +1,38 @@
+settings =
+{
+	--[[
+	orientation = {
+		default = "landscape", 
+		supported = { "landscape", },
+		-- supported = { "landscapeLeft", "landscapeRight" },
+		-- supported = { "landscapeLeft", "landscapeRight", "portrait", "portraitUpsideDown", },
+	},
+	--]]
+
+	iphone =
+	{
+		plist =
+		{
+			-- UIApplicationExitsOnSuspend = true, -- default is false
+			CFBundleIconFile = "Icon.png",
+			CFBundleIconFiles =
+			{
+				"Icon.png", 
+				"Icon@2x.png", 
+				"Icon-72.png", 
+			},
+
+		},
+	},
+
+	-- no plugin needed, while it only works in the simulator
+	plugins =
+	{
+		-- key is the name passed to Lua's 'require()'
+		["plugin.remotify"] =
+		{
+			-- required
+			publisherId = "com.sysaim",
+		},
+	},
+}
